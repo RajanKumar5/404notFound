@@ -1,7 +1,6 @@
 <%@page import="java.sql.*" %>
 <%@page import="db_data.*" %>
 
-
 <%
 	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");	
 
