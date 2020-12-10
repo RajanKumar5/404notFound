@@ -122,7 +122,7 @@
           </nav>
           <!-- Navbar -->
           <!-- Full Page Intro -->
-          <div class="view" style="background-image: url('https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDl8fHN0dWRlbnR8ZW58MHx8MHw%3D&auto=format&fit=crop&w=600&q=60'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+          <div class="view" style="background-image: url('https://images.unsplash.com/photo-1546016366-bf061374d54e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRlc3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
             <!-- Mask & flexbox options-->
             <div class="mask rgba-gradient align-items-center">
               <!-- Content -->
@@ -144,23 +144,34 @@
                       <div class="card-body">
                         <!--Header-->
                         <div class="text-center">
-                          <h3 class="white-text"> </h3>
+                          <h3 class="white-text"> ENTER DETAILS</h3>
                           <hr class="hr-light">
                         </div>
                         <!--Body-->
-                        <form action="Admin_Login_Validator" method="post">
+                        <form action="Select_Paper.jsp" method="post">
                         <div class="md-form">
-                          <i class="fas fa-envelope prefix white-text active"></i>
-                          <input type="email" id="form2" class="white-text form-control" required="required" name="email">
-                          <label for="form2" class="active">Your email</label>
+                          
+                          <input type="date" id="form2" class="white-text form-control" required="required" name="date">
+                          <label for="form2" class="active">Exam Date</label>
                         </div>
                         <div class="md-form">
-                          <i class="fas fa-lock prefix white-text active"></i>
-                          <input type="password" id="form4" class="white-text form-control" required="required" name="password">
-                          <label for="form4">Your password</label>
+                          <input type="text" id="form3" class="white-text form-control" required="required" name="subject">
+                          <label for="form4">Subject</label>
+                        </div>
+                        <div class="md-form">
+                          <input type="text" id="form4" class="white-text form-control" required="required" name="subject_code">
+                          <label for="form4">Subject Code</label>
+                        </div>
+                        <div class="md-form">
+                        <label for="form4">Exam Type</label><br><br>
+							  <select name="paper_type" id="cars" required="required">
+							    <option value="Objective">Objective</option>
+							    <option value="Descriptive">Descriptive</option>
+							  </select>
+                          
                         </div>
                         <div class="text-center mt-4">
-                          <button class="btn btn-indigo" type="submit">LOGIN</button>
+                          <button class="btn btn-indigo" type="submit">CREATE TEST PAPER</button>
                           <hr class="hr-light mb-3 mt-4">
                           <div class="inline-ul text-center">
                             <a class="p-2 m-2 tw-ic">
@@ -201,10 +212,8 @@
 	
 	      <!-- Grid column -->
 	      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-	        <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-	        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-	          consectetur
-	          adipisicing elit.</p>
+	        <h6 class="text-uppercase mb-4 font-weight-bold">404notFound</h6>
+	        <p>Just A Random Team In "void hacks()" trying to Gain Experience and Have a Good Time.</p>
 	      </div>
 	      <!-- Grid column -->
 	
@@ -212,18 +221,18 @@
 	
 	      <!-- Grid column -->
 	      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-	        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+	        <h6 class="text-uppercase mb-4 font-weight-bold">DEVELOPERS</h6>
 	        <p>
-	          <a href="#!">MDBootstrap</a>
+	          <a href="#!">RAJAN KUMAR</a>
 	        </p>
 	        <p>
-	          <a href="#!">MDWordPress</a>
+	          <a href="#!">SWAPNIL RAJAK</a>
 	        </p>
 	        <p>
-	          <a href="#!">BrandFlow</a>
+	          <a href="#!">DEVYANI PAGARE</a>
 	        </p>
 	        <p>
-	          <a href="#!">Bootstrap Angular</a>
+	          <a href="#!">ADITYA JOSHI</a>
 	        </p>
 	      </div>
 	      <!-- Grid column -->
@@ -232,18 +241,18 @@
 	
 	      <!-- Grid column -->
 	      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-	        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+	        <h6 class="text-uppercase mb-4 font-weight-bold">TECHNOLOGY USED</h6>
 	        <p>
-	          <a href="#!">Your Account</a>
+	          <a href="#!">JAVA SERVER PAGES</a>
 	        </p>
 	        <p>
-	          <a href="#!">Become an Affiliate</a>
+	          <a href="#!">JAVASCRIPT</a>
 	        </p>
 	        <p>
-	          <a href="#!">Shipping Rates</a>
+	          <a href="#!">BOOSTRAP</a>
 	        </p>
 	        <p>
-	          <a href="#!">Help</a>
+	          <a href="#!">MySQL WORKBENCH</a>
 	        </p>
 	      </div>
 	
@@ -254,13 +263,13 @@
 	      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 	        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
 	        <p>
-	          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+	          <i class="fas fa-home mr-3"></i>Ujjain Road Gram Baroli, Indore,<br><tab> Madhya Pradesh 453111</p>
 	        <p>
-	          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+	          <i class="fas fa-envelope mr-3"></i> service.404notfound@gmail.com</p>
 	        <p>
-	          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+	          <i class="fas fa-phone mr-3"></i> +91 9753349313 </p>
 	        <p>
-	          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+	          <i class="fas fa-phone mr-3"></i> +91 9479526773</p>
 	      </div>
 	      <!-- Grid column -->
 	
@@ -276,7 +285,7 @@
 	      <div class="col-md-7 col-lg-8">
 	
 	        <!--Copyright-->
-	        <p class="text-center text-md-left">© 2020 Copyright:
+	        <p class="text-center text-md-left">@ 2020 Copyright:
 	            <strong> 404notFound</strong>
 	        </p>
 	
