@@ -112,10 +112,8 @@
 	
 	      <!-- Grid column -->
 	      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-	        <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-	        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-	          consectetur
-	          adipisicing elit.</p>
+	        <h6 class="text-uppercase mb-4 font-weight-bold">404notFound</h6>
+	        <p>Just A Random Team In "void hacks()" trying to Gain Experience and Have a Good Time.</p>
 	      </div>
 	      <!-- Grid column -->
 	
@@ -123,18 +121,18 @@
 	
 	      <!-- Grid column -->
 	      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-	        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+	        <h6 class="text-uppercase mb-4 font-weight-bold">DEVELOPERS</h6>
 	        <p>
-	          <a href="#!">MDBootstrap</a>
+	          <a href="#!">RAJAN KUMAR</a>
 	        </p>
 	        <p>
-	          <a href="#!">MDWordPress</a>
+	          <a href="#!">SWAPNIL RAJAK</a>
 	        </p>
 	        <p>
-	          <a href="#!">BrandFlow</a>
+	          <a href="#!">DEVYANI PAGARE</a>
 	        </p>
 	        <p>
-	          <a href="#!">Bootstrap Angular</a>
+	          <a href="#!">ADITYA JOSHI</a>
 	        </p>
 	      </div>
 	      <!-- Grid column -->
@@ -143,18 +141,18 @@
 	
 	      <!-- Grid column -->
 	      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-	        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+	        <h6 class="text-uppercase mb-4 font-weight-bold">TECHNOLOGY USED</h6>
 	        <p>
-	          <a href="#!">Your Account</a>
+	          <a href="#!">JAVA SERVER PAGES</a>
 	        </p>
 	        <p>
-	          <a href="#!">Become an Affiliate</a>
+	          <a href="#!">JAVASCRIPT</a>
 	        </p>
 	        <p>
-	          <a href="#!">Shipping Rates</a>
+	          <a href="#!">BOOSTRAP</a>
 	        </p>
 	        <p>
-	          <a href="#!">Help</a>
+	          <a href="#!">MySQL WORKBENCH</a>
 	        </p>
 	      </div>
 	
@@ -165,13 +163,13 @@
 	      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 	        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
 	        <p>
-	          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+	          <i class="fas fa-home mr-3"></i>Ujjain Road Gram Baroli, Indore,<br><tab> Madhya Pradesh 453111</p>
 	        <p>
-	          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+	          <i class="fas fa-envelope mr-3"></i> service.404notfound@gmail.com</p>
 	        <p>
-	          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+	          <i class="fas fa-phone mr-3"></i> +91 9753349313 </p>
 	        <p>
-	          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+	          <i class="fas fa-phone mr-3"></i> +91 9479526773</p>
 	      </div>
 	      <!-- Grid column -->
 	
@@ -187,7 +185,7 @@
 	      <div class="col-md-7 col-lg-8">
 	
 	        <!--Copyright-->
-	        <p class="text-center text-md-left">© 2020 Copyright:
+	        <p class="text-center text-md-left">@ 2020 Copyright:
 	            <strong> 404notFound</strong>
 	        </p>
 	
