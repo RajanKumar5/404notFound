@@ -1,3 +1,6 @@
+<% 
+	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+%>
 <html lang="en">
 	<head>
 	<!-- Required meta tags -->
@@ -81,12 +84,12 @@
                   <li class="nav-item">
                     <a class="nav-link" href="Home">Home <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>	
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Profile</a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
@@ -206,7 +209,7 @@
 	      <div class="col-md-7 col-lg-8">
 	
 	        <!--Copyright-->
-	        <p class="text-center text-md-left">© 2020 Copyright:
+	        <p class="text-center text-md-left">Â© 2020 Copyright:
 	            <strong> 404notFound</strong>
 	        </p>
 	
