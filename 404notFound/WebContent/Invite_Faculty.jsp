@@ -8,7 +8,7 @@
 		response.sendRedirect("Home");
 	}
 	String email = request.getParameter("email");
-	String password = request.getParameter("password");
+	String password = DB_Details.generatePassword();
 	
 	Connection con = null;
 	PreparedStatement stmt = null;
@@ -32,7 +32,7 @@
 				alert("Invitation Sent Successfully..");
 			</script>
 		<%
-		RequestDispatcher rd = request.getRequestDispatcher("Add_Faculty");
+		RequestDispatcher rd = request.getRequestDispatcher("Add_Remove_Faculty");
 		rd.include(request, response);
 	}
 	catch(Exception e){
@@ -43,7 +43,7 @@
 					alert("You have already invited this faculty..");
 				</script>
 			<%
-			RequestDispatcher rd = request.getRequestDispatcher("Add_Faculty");
+			RequestDispatcher rd = request.getRequestDispatcher("Add_Remove_Faculty");
 			rd.include(request , response);
 		}
 		else{
@@ -52,7 +52,7 @@
 					alert("Something Went Wrong..Try Again Later..");
 				</script>
 			<%
-			RequestDispatcher rd = request.getRequestDispatcher("Add_Faculty");
+			RequestDispatcher rd = request.getRequestDispatcher("Add_Remove_Faculty");
 			rd.include(request , response);
 		}
 	}
