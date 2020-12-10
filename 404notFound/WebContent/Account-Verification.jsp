@@ -100,40 +100,137 @@
   	  </div>	  
 	</form>
 	
-	<footer class="page-footer font-small special-color-dark pt-4 mt-4" style="bottom: 0; position: fixed; width: 100%;">
-	  <div class="container">
-	    <ul class="list-unstyled list-inline text-center">
-	      <li class="list-inline-item">
-	        <a class="btn-floating btn-fb mx-1">
-	          <i class="fab fa-facebook-f"> </i>
-	        </a>
-	      </li>
-	      <li class="list-inline-item">
-	        <a class="btn-floating btn-tw mx-1">
-	          <i class="fab fa-twitter"> </i>
-	        </a>
-	      </li>
-	      <li class="list-inline-item">
-	        <a class="btn-floating btn-gplus mx-1">
-	          <i class="fab fa-google-plus-g"> </i>
-	        </a>
-	      </li>
-	      <li class="list-inline-item">
-	        <a class="btn-floating btn-li mx-1">
-	          <i class="fab fa-linkedin-in"> </i>
-	        </a>
-	      </li>
-	      <li class="list-inline-item">
-	        <a class="btn-floating btn-dribbble mx-1">
-	          <i class="fab fa-dribbble"> </i>
-	        </a>
-	      </li>
-	    </ul>
+	<!-- Footer -->
+	<footer class="page-footer font-small mdb-color pt-4 bg-dark">
+	
+	  <!-- Footer Links -->
+	  <div class="container text-center text-md-left">
+	
+	    <!-- Footer links -->
+	    <div class="row text-center text-md-left mt-3 pb-3">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+	        <h6 class="text-uppercase mb-4 font-weight-bold">404notFound</h6>
+	        <p>Just A Random Team In "void hacks()" trying to Gain Experience and Have a Good Time.</p>
+	      </div>
+	      <!-- Grid column -->
+	
+	      <hr class="w-100 clearfix d-md-none">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+	        <h6 class="text-uppercase mb-4 font-weight-bold">DEVELOPERS</h6>
+	        <p>
+	          <a href="#!">RAJAN KUMAR</a>
+	        </p>
+	        <p>
+	          <a href="#!">SWAPNIL RAJAK</a>
+	        </p>
+	        <p>
+	          <a href="#!">DEVYANI PAGARE</a>
+	        </p>
+	        <p>
+	          <a href="#!">ADITYA JOSHI</a>
+	        </p>
+	      </div>
+	      <!-- Grid column -->
+	
+	      <hr class="w-100 clearfix d-md-none">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+	        <h6 class="text-uppercase mb-4 font-weight-bold">TECHNOLOGY USED</h6>
+	        <p>
+	          <a href="#!">JAVA SERVER PAGES</a>
+	        </p>
+	        <p>
+	          <a href="#!">JAVASCRIPT</a>
+	        </p>
+	        <p>
+	          <a href="#!">BOOSTRAP</a>
+	        </p>
+	        <p>
+	          <a href="#!">MySQL WORKBENCH</a>
+	        </p>
+	      </div>
+	
+	      <!-- Grid column -->
+	      <hr class="w-100 clearfix d-md-none">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+	        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+	        <p>
+	          <i class="fas fa-home mr-3"></i>Ujjain Road Gram Baroli, Indore,<br><tab> Madhya Pradesh 453111</p>
+	        <p>
+	          <i class="fas fa-envelope mr-3"></i> service.404notfound@gmail.com</p>
+	        <p>
+	          <i class="fas fa-phone mr-3"></i> +91 9753349313 </p>
+	        <p>
+	          <i class="fas fa-phone mr-3"></i> +91 9479526773</p>
+	      </div>
+	      <!-- Grid column -->
+	
+	    </div>
+	    <!-- Footer links -->
+	
+	    <hr>
+	
+	    <!-- Grid row -->
+	    <div class="row d-flex align-items-center">
+	
+	      <!-- Grid column -->
+	      <div class="col-md-7 col-lg-8">
+	
+	        <!--Copyright-->
+	        <p class="text-center text-md-left">@ 2020 Copyright:
+	            <strong> 404notFound</strong>
+	        </p>
+	
+	      </div>
+	      <!-- Grid column -->
+	
+	      <!-- Grid column -->
+	      <div class="col-md-5 col-lg-4 ml-lg-0">
+	
+	        <!-- Social buttons -->
+	        <div class="text-center text-md-right">
+	          <ul class="list-unstyled list-inline">
+	            <li class="list-inline-item">
+	              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+	                <i class="fab fa-facebook-f"></i>
+	              </a>
+	            </li>
+	            <li class="list-inline-item">
+	              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+	                <i class="fab fa-twitter"></i>
+	              </a>
+	            </li>
+	            <li class="list-inline-item">
+	              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+	                <i class="fab fa-google-plus-g"></i>
+	              </a>
+	            </li>
+	            <li class="list-inline-item">
+	              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+	                <i class="fab fa-linkedin-in"></i>
+	              </a>
+	            </li>
+	          </ul>
+	        </div>
+	
+	      </div>
+	      <!-- Grid column -->
+	
+	    </div>
+	    <!-- Grid row -->
+	
 	  </div>
-	  <div class="footer-copyright text-center py-3">
-	  	<strong>© 2020 Copyright</strong>
-	  </div>
+	  <!-- Footer Links -->
+	
 	</footer>
+	<!-- Footer -->
 
     <!-- JQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
