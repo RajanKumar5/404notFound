@@ -111,7 +111,7 @@
                     <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>ADMIN PORTAL</strong></h1>
                     <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                     <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>404notFound</strong></h5>
-                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s" href="Add_Faculty">ADD/REMOVE FACULTY</a>
+                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s" href="Add_Remove_Faculty">ADD/REMOVE FACULTY</a>
                     <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s" href="Edit_Faculty">EDIT FACULTY DETAILS</a>
                   </div>
                   <!--Grid column-->
