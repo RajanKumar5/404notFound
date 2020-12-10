@@ -58,12 +58,12 @@
     <url-pattern>/Logout</url-pattern>
   </servlet-mapping>
   <servlet>
-    <servlet-name>Add_Faculty</servlet-name>
-    <jsp-file>/Add_Faculty.jsp</jsp-file>
+    <servlet-name>Add_Remove_Faculty</servlet-name>
+    <jsp-file>/Add_Remove_Faculty.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Add_Faculty</servlet-name>
-    <url-pattern>/Add_Faculty</url-pattern>
+    <servlet-name>Add_Remove_Faculty</servlet-name>
+    <url-pattern>/Add_Remove_Faculty</url-pattern>
   </servlet-mapping>
   <servlet>
     <servlet-name>Invite_Faculty</servlet-name>
@@ -105,5 +105,28 @@
     <servlet-name>Faculty_Login_Validator</servlet-name>
     <url-pattern>/Faculty_Login_Validator</url-pattern>
   </servlet-mapping>
-  
+  <servlet>
+    <servlet-name>Remove_Faculty</servlet-name>
+    <jsp-file>/Remove_Faculty.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Remove_Faculty</servlet-name>
+    <url-pattern>/Remove_Faculty</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Student_Login</servlet-name>
+    <jsp-file>/Student_Login.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Student_Login</servlet-name>
+    <url-pattern>/Student_Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Schedule_Exam</servlet-name>
+    <jsp-file>/Schedule_Exam.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Schedule_Exam</servlet-name>
+    <url-pattern>/Schedule_Exam</url-pattern>
+  </servlet-mapping>
 </web-app>
